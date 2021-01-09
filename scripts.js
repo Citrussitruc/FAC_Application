@@ -11,21 +11,21 @@ carouselSlide.style.transform = 'translateX(' + (-size * counter) + 'px)';
 
 function nextImage(){
     if(counter >= carouselImages.length - 1) return;
-    //carouselSlide.style.transtion;
+    carouselSlide.style.transtion = 'none';
     counter++;
     carouselSlide.style.transform = 'translateX(' + (-size * counter) + 'px)';
 }
 
 function lastImage(){
     if(counter <= 0) return;
-    //carouselSlide.style.transtion;
+    carouselSlide.style.transtion = 'none';
     counter--;
     carouselSlide.style.transform = 'translateX(' + (-size * counter) + 'px)';
 }
 
-window.addEventListener('keydown',()=>{
-    if(keypress.key == "ArrowLeft"){nextImage();}
-    if(keypress.key == "ArrowRight"){lastImage()}
+window.addEventListener('keydown',(keypress)=>{
+    if(keypress.key == "ArrowLeft"){lastImage();}
+    if(keypress.key == "ArrowRight"){nextImage()}
 });
 
 nextBtn.addEventListener('click',()=>{

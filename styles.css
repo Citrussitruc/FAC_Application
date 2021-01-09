@@ -89,8 +89,7 @@ header nav{
     height: 400px;
     width: 300px;
     margin: auto;
-    overflow: hidden;
-    
+    overflow: hidden;   
 }
 
 .carousel-slide{
