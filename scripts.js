@@ -4,7 +4,6 @@ const carouselImages = document.querySelectorAll('.carousel-slide img');
 const prevBtn = document.querySelector('#prevBtn');
 const nextBtn = document.querySelector('#nextBtn');
 
-const citrus = document.querySelector('#Curtis');
 
 let counter = 1;
 const size = carouselImages[0].clientWidth;
@@ -54,7 +53,3 @@ carouselSlide.addEventListener('transitionend',()=>{
         carouselSlide.style.transform = 'translateX(' + (-size * counter) + 'px)';
     }
 });
-
-citrus.addEventListener('click',()=>{
-    console.log(citrus.innerHTML)
-})
