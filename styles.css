@@ -4,6 +4,9 @@ body{
     background-color: #042f66;
     }
 
+html{
+    scroll-behavior: smooth;
+}
 .container{
     top: 0;
     width: 80%;
@@ -52,6 +55,7 @@ header li{
 header #Citrus {
     color: sandybrown;
     float: left;
+    padding-left: 20px;
     font-style: normal;
     margin-left: 10px; }
 
@@ -59,22 +63,36 @@ header nav{
     float: right;
     margin-top: 35px; }
 
-.spacer{
-    padding-top: 160px;
-}
+#myBackground{
+    padding-top: 150px;
+    padding-bottom: 75px;
+    background-clip: padding-box;
+    background-color: #042f66;}
+
+#myBackground a{
+    color: sandybrown;
+
+    }
+
 #intention{
     padding-top: 150px;
+    padding-bottom: 75px;
     background-clip: padding-box;
     background-color: black;
 }
+#intention a{
+    color: sandybrown;
+}
 #FAC{
     padding-top: 150px;
+    padding-bottom: 75px;
     background-clip: padding-box;
     background-color: #042f66;
 }
 
 #sketchbook{
     padding-top: 150px;
+    padding-bottom: 75px;
     background-clip: padding-box;
     background-color: black;
 }
@@ -85,23 +103,46 @@ header nav{
 }
 
 .carousel-container{
+    padding-top: 20px;
     width: 50%;
     height: 400px;
     width: 300px;
     margin: auto;
-    overflow: hidden;   
+    overflow: hidden;
+    position: relative;   
 }
 
 .carousel-slide{
     width: 100%;
     height: 400px;
     display: flex;
-    transition: 0.2s ease-in-out;
 }
 
 .carousel-slide img{
     max-width: 100%;
     max-height: 100%;
+}
+
+#prevBtn{
+    position: absolute;
+    bottom: 15%;
+    z-index: 10;
+    left: 5%;
+    font-size: 30px;
+    color: black;
+    cursor: pointer;
+    outline: #042f66;
+}
+
+#nextBtn{
+    position: absolute;
+    bottom: 15%;
+    z-index: 10;
+    right: 5%;
+    font-size: 30px;
+    color: black;
+    cursor: pointer;
+    outline: #042f66;
 }
 
 .iframe-container{

@@ -5,12 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FAC Application</title>
     <link rel="stylesheet" href="./styles.css">
+    <script src="https://kit.fontawesome.com/5b375f4150.js" crossorigin="anonymous"></script>
 </head>
 
 <body> 
     <header>
         <div class="banner">
-            <div class="box">
+            <div class="box" id='Curtis'>
                 <img src="./Images/orange.png">
             </div>
             <div id="Citrus">
@@ -18,7 +19,7 @@
             </div>  
             <span>
                 <ul>
-                    <li><a href="index.html">>myBackground</a></li>
+                    <li><a href="#myBackground">>myBackground</a></li>
                     <li><a href="#intention">>myIntention</a></li>
                     <li><a href="#FAC">>foundersAndCoders</a></li>
                     <li><a href="#sketchbook">>sketchBook</a></li>
@@ -29,13 +30,12 @@
         </div>
     </header>
 
-    <div class ="spacer"></div>
-
-    <section id ="My background">
+    <section id ="myBackground">
         <div class="container">
             <h3>>myBackground</h3>
             <p> > I’ve lived in London my whole life, until two years ago when I dropped everything, leaving a full time job as the manager of a 
-                <a href="https://minalima.com/" ></a>Harry Potter graphic design gallery</a>to work and travel for two years across Canada. Now home again, I’ve returned with a new determination to actively contribute to a more sustainable world.    </p>
+                <a href="https://minalima.com/" >Harry Potter graphic design gallery</a> to work and travel for two years across Canada. </p>
+            <p> > Now home again, I’ve returned with a new determination to actively contribute to a more sustainable world.</p>
             <p> > I’m passionate about everything bikes, from riding to repairing and building, I have spent the last two years volunteering at various community bike shops from 
                     <a href="http://recyclistas.ca">Recyclistas</a> in Victoria BC to 
                     <a href="https://santropolroulant.org/en/what-is-the-roulant/collectives/santrovelo/">Santrovelo</a> in Montreal QC  and now here in Deptford at 
@@ -87,6 +87,8 @@
             <p>> I love drawing and have recently been doing daily sketches to improve on my ability to understand the world, faces and animals and put them down on paper. Here are some examples from my sketchbook:</p>
         </div>
         <div class="carousel-container">
+            <i class="fas fa-arrow-right"id="nextBtn"></i>
+            <i class="fas fa-arrow-left" id="prevBtn"></i>
             <div class="carousel-slide">
                 <img src="./Images/Sketches/sketch14.jpeg"id="lastClone">
                 <img src="./Images/Sketches/sketch1.jpeg">
@@ -105,10 +107,11 @@
                 <img src="./Images/Sketches/sketch1.jpeg"id="firstClone">
             </div>
         </div>
-        <div class="container">
+        <!-- <div class="container">
+            
             <button id="prevBtn">Prev</button> 
             <button id="nextBtn">Next</button>
-        </div>
+        </div> -->
     </section>
 
     <section id ="shortFilm"> 
@@ -140,10 +143,10 @@
         </div>
         <div class="container">
             <h3>Thanks for your consideration</h3>
-            <a href="index.html">>backToTop</a>
+            <a href="#myBackground">>backToTop</a>
         </div>
     </footer>
-   
+    
     <script src="./scripts.js"></script>
 </body>
 </html>
