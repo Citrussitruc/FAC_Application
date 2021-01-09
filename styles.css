@@ -62,17 +62,17 @@ header nav{
 .spacer{
     padding-top: 160px;
 }
-
-#FAC{
+#intention{
     padding-top: 150px;
     background-clip: padding-box;
     background-color: black;
 }
-#intention{
+#FAC{
     padding-top: 150px;
     background-clip: padding-box;
     background-color: #042f66;
 }
+
 #sketchbook{
     padding-top: 150px;
     background-clip: padding-box;
