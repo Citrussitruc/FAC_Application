@@ -1,8 +1,10 @@
 # FAC_Application
 
-This is a test attempting to use GitHub when creating my website
+Hi, thanks for taking a look at my application.
 
-I've made more of a start now but can't seem to get the Github pages hosting working
-Seems like it didn't like the fact that I was using _index.html as the name for the site
+I've learned so much in the process of making this and really apreciate the chance to apply.
 
-Even though I've changed it now. It's still not working
+Not quite sure of the reason, but some of the colours and stylings appear differently in the GitHub pages, than on my IDE.
+
+Oh and I've seen a bug where the carousel breaks, when I refresh it again it usually fixes itself.
+
