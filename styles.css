@@ -130,7 +130,6 @@ header nav{
     font-size: 30px;
     color: black;
     cursor: pointer;
-    outline: #042f66;
 }
 
 #nextBtn{
@@ -141,7 +140,6 @@ header nav{
     font-size: 30px;
     color: black;
     cursor: pointer;
-    outline: #042f66;
 }
 
 .iframe-container{
