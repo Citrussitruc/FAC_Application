@@ -53,14 +53,14 @@ carouselSlide.addEventListener('transitionend',()=>{
 });
 
 const citrus = document.querySelector('#Citrus h1 a');
-let CitrusCurtis = 'Citrus'
+let citrusCurtis = 'Citrus'
 function anagram(){
-    if(CitrusCurtis == 'Citrus'){
-        citrus.innerHTML = CitrusCurtis
-        CitrusCurtis = 'Curtis'
-    }else if(CitrusCurtis == 'Curtis'){
-        citrus.innerHTML = CitrusCurtis
-        CitrusCurtis = 'Citrus'
+    if(citrusCurtis == 'Citrus'){
+        citrus.innerHTML = citrusCurtis
+        citrusCurtis = 'Curtis'
+    }else if(citrusCurtis == 'Curtis'){
+        citrus.innerHTML = citrusCurtis
+        citrusCurtis = 'Citrus'
     }
     
 }
